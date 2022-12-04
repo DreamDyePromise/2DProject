@@ -2616,3 +2616,740 @@ Script Stack (0 frames):
 [2022.12.04-08.37.29:442][304]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Temp/Autosaves/Game/Map/Map_Main_Auto9.
 [2022.12.04-08.37.29:442][304]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Map_Main' took 0.067
 [2022.12.04-08.37.29:442][304]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.067
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x55ab58d0c60 [can pipeline])
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: libcurl info message cache 1 (Re-using existing connection! (#4) with host datarouter.ol.epicgames.com)
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (23.22.67.192) port 443 (#4))
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: 0000055B1D7FEB00: libcurl info message cache 7 (Closing connection 4)
+[2022.12.04-08.37.51:906][652]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: request failed, libcurl error: 0 (No error)
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x55ab58d0e70 [can pipeline])
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (23.22.67.192) port 443 (#5))
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 7 (Closing connection 5)
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: 0000055B2B60AF00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.12.04-08.53.42:736][657]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.04-08.54.36:196][857]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/Enemies/FB_Snail_Death.FB_Snail_Death
+[2022.12.04-08.54.36:197][857]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.04-08.54.36:288][857]LogViewport: Scene viewport resized to 1148x417, mode Windowed.
+[2022.12.04-08.54.39:374][ 20]LogViewport: Scene viewport resized to 765x278, mode Windowed.
+[2022.12.04-08.54.40:608][ 57]LogViewport: Scene viewport resized to 762x301, mode Windowed.
+[2022.12.04-08.54.40:675][ 59]LogViewport: Scene viewport resized to 633x210, mode Windowed.
+[2022.12.04-08.54.40:703][ 60]LogViewport: Scene viewport resized to 626x205, mode Windowed.
+[2022.12.04-08.54.40:926][ 73]LogViewport: Scene viewport resized to 1526x805, mode Windowed.
+[2022.12.04-08.54.41:057][ 79]LogViewport: Scene viewport resized to 1522x828, mode Windowed.
+[2022.12.04-08.54.41:136][ 81]LogViewport: Scene viewport resized to 627x199, mode Windowed.
+[2022.12.04-08.54.41:192][ 82]LogSlate: Window 'FB_Snail_Death' being destroyed
+[2022.12.04-08.54.41:205][ 82]LogViewport: Scene viewport resized to 630x209, mode Windowed.
+[2022.12.04-08.54.42:458][154]LogViewport: Scene viewport resized to 626x232, mode Windowed.
+[2022.12.04-08.54.42:477][155]LogViewport: Scene viewport resized to 1526x805, mode Windowed.
+[2022.12.04-08.54.42:547][157]LogViewport: Scene viewport resized to 1522x828, mode Windowed.
+[2022.12.04-08.54.42:609][159]LogViewport: Scene viewport resized to 741x279, mode Windowed.
+[2022.12.04-08.54.42:641][160]LogViewport: Scene viewport resized to 627x198, mode Windowed.
+[2022.12.04-08.54.42:710][164]LogViewport: Scene viewport resized to 1526x805, mode Windowed.
+[2022.12.04-08.54.43:227][195]LogSlate: Window 'FB_Snail_Death' being destroyed
+[2022.12.04-08.55.00:439][225]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-08.55.00:440][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-08.55.30:702][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.12.04-08.55.30:702][ 33]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-08.55.30:702][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-08.58.31:910][534]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interfaces/INT_EnemyBase.INT_EnemyBase
+[2022.12.04-08.58.31:910][534]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.04-08.58.46:348][381]BlueprintLog: New page: Compile INT_EnemyBase
+[2022.12.04-08.58.46:446][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.12.04-08.58.47:857][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interfaces/INT_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Interfaces/INT_EnemyBase.uasset" SILENT=true
+[2022.12.04-08.58.47:861][461]LogSavePackage: Moving output files for package: /Game/Blueprints/Interfaces/INT_EnemyBase
+[2022.12.04-08.58.47:862][461]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/INT_EnemyBaseBAEBE2B64F41A13A3162E4A08B71AFC9.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Interfaces/INT_EnemyBase.uasset'
+[2022.12.04-08.58.47:876][461]AssetCheck: New page: Asset Save: INT_EnemyBase
+[2022.12.04-08.58.47:876][461]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interfaces/INT_EnemyBase.INT_EnemyBase
+[2022.12.04-08.58.49:592][564]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-08.58.49:593][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-09.00.04:687][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-09.00.04:749][887]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-09.00.04:749][887]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase117AE5A84B5D3C7884762A8B33F8572A.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-09.00.04:764][887]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-09.00.04:764][887]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-09.00.24:997][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-09.00.25:061][ 59]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-09.00.25:061][ 59]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseF27846634EB0D8DA1763DBB4A4BCCEB1.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-09.00.25:077][ 59]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-09.00.25:077][ 59]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-09.01.30:705][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-09.01.30:771][995]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-09.01.30:772][995]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase2182159C4ACA4298AF59E0BD9B9E4622.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-09.01.30:787][995]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-09.01.30:787][995]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-09.02.34:127][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-09.02.34:188][735]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-09.02.34:189][735]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseF7E932514F835ADD89B707A4784A3A9A.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-09.02.34:204][735]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-09.02.34:205][735]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-09.02.35:492][809]BlueprintLog: New page: Compile BP_EnemyBase
+[2022.12.04-09.02.35:516][809]LogBlueprint: Error: [AssetLog] E:\Unreal Projects\MapleStory2D\Content\Blueprints\Enemy\BP_EnemyBase.uasset: [Compiler] Could not find a pin for the parameter bFade of SRV_EnemyFade on  SRV Enemy Fade
+[2022.12.04-09.02.35:516][809]LogBlueprint: Error: [AssetLog] E:\Unreal Projects\MapleStory2D\Content\Blueprints\Enemy\BP_EnemyBase.uasset: [Compiler] Pin  New Param  named NewParam doesn't match any parameters of function SRV_EnemyFade
+[2022.12.04-09.02.35:641][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.12.04-09.02.57:187][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-09.02.57:250][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-09.02.57:250][ 71]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase2860F57F4949479D02C9059C12B7F227.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-09.02.57:268][ 71]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-09.02.57:268][ 71]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-09.02.57:822][104]BlueprintLog: New page: Compile BP_EnemyBase
+[2022.12.04-09.02.57:964][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.12.04-09.02.58:774][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-09.02.58:838][144]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-09.02.58:838][144]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseB1F927384166A8FE72B36C844437627D.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-09.02.58:852][144]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-09.02.58:853][144]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-09.03.42:981][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.12.04-09.03.42:985][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map_Main" FILE="../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.12.04-09.03.43:004][742]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map/Map_Main_Auto0
+[2022.12.04-09.03.43:004][742]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/Map_Main_Auto05ADBD09A497E1D3E0DDF3A99514EF709.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto0.umap'
+[2022.12.04-09.03.43:006][742]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Temp/Autosaves/Game/Map/Map_Main_Auto0.
+[2022.12.04-09.03.43:006][742]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Map_Main' took 0.063
+[2022.12.04-09.03.43:006][742]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.063
+[2022.12.04-09.03.43:007][742]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemy/BP_EnemyBase] ([2] browsable assets)...
+[2022.12.04-09.03.43:007][742]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy/BP_EnemyBase]
+[2022.12.04-09.03.43:070][742]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto0
+[2022.12.04-09.03.43:071][742]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase_Auto0A58274D44961EBA4EC766594670D363A.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto0.uasset'
+[2022.12.04-09.03.43:072][742]LogFileHelpers: Auto-saving content packages took 0.066
+[2022.12.04-09.05.12:954][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-09.05.13:018][120]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-09.05.13:018][120]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase9C1B13C048EE69D050ACAF8AC6D554A1.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-09.05.13:034][120]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-09.05.13:034][120]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-09.05.25:815][885]BlueprintLog: New page: Compile BP_EnemyBase
+[2022.12.04-09.05.25:955][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: request failed, libcurl error: 0 (No error)
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x55ab58d02d0 [can pipeline])
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 1 (Re-using existing connection! (#6) with host datarouter.ol.epicgames.com)
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.209.144.249) port 443 (#6))
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 7 (Closing connection 6)
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: 0000055B3ED5A500: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.12.04-09.12.41:809][ 30]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.04-09.13.43:302][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.12.04-09.13.43:307][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map_Main" FILE="../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.12.04-09.13.43:324][699]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map/Map_Main_Auto1
+[2022.12.04-09.13.43:325][699]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/Map_Main_Auto1429A356C439F1687DB3C5887B5553FCA.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto1.umap'
+[2022.12.04-09.13.43:327][699]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Map_Main' took 0.067
+[2022.12.04-09.13.43:327][699]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.067
+[2022.12.04-09.13.43:327][699]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemy/BP_EnemyBase] ([2] browsable assets)...
+[2022.12.04-09.13.43:327][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy/BP_EnemyBase]
+[2022.12.04-09.13.43:387][699]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto1
+[2022.12.04-09.13.43:388][699]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase_Auto1BE684FC24A1A3CA11043C58C03740095.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto1.uasset'
+[2022.12.04-09.13.43:388][699]LogFileHelpers: Auto-saving content packages took 0.063
+[2022.12.04-09.31.26:930][511]LogDerivedDataCache: ../../../../../Unreal Projects/MapleStory2D/DerivedDataCache: Maintenance finished in +00:00:00.069 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.04-10.05.37:893][544]LogHttp: Warning: 0000055B01604600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.04-10.05.37:893][544]LogHttp: Warning: 0000055B01604600: request failed, libcurl error: 0 (No error)
+[2022.12.04-10.05.37:893][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x55ab58d0ed0 [can pipeline])
+[2022.12.04-10.05.37:893][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 1 (Re-using existing connection! (#7) with host datarouter.ol.epicgames.com)
+[2022.12.04-10.05.37:893][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.7.181.150) port 443 (#7))
+[2022.12.04-10.05.37:893][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.04-10.05.37:893][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.12.04-10.05.37:894][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.04-10.05.37:894][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.04-10.05.37:894][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 7 (Closing connection 7)
+[2022.12.04-10.05.37:894][544]LogHttp: Warning: 0000055B01604600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.12.04-10.05.37:894][544]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.04-10.12.48:850][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.12.48:923][237]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.12.48:924][237]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseB57E93B145E906A992B40A9F8B6C4365.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.12.48:943][237]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.12.48:943][237]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.13.17:323][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.13.17:386][854]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.13.17:386][854]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase4EE0D55F4EDC6BFD7C26659449552A43.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.13.17:401][854]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.13.17:401][854]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.13.33:445][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.13.33:510][755]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.13.33:510][755]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase96CE87A74C2AE46694DB8EA1C20ED2BB.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.13.33:525][755]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.13.33:525][755]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.13.34:245][796]BlueprintLog: New page: Compile BP_EnemyBase
+[2022.12.04-10.13.34:365][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.12.04-10.13.53:542][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.13.53:606][928]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.13.53:606][928]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseCAE260E54F27B113C306989BD008ACC2.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.13.53:622][928]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.13.53:622][928]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.14.11:164][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.12.04-10.14.11:167][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map_Main" FILE="../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.12.04-10.14.11:186][932]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map/Map_Main_Auto2
+[2022.12.04-10.14.11:187][932]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/Map_Main_Auto22BF563FD4B941DC9B88A43804B244DCC.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto2.umap'
+[2022.12.04-10.14.11:189][932]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Map_Main' took 0.064
+[2022.12.04-10.14.11:189][932]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.064
+[2022.12.04-10.14.11:189][932]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemy/BP_EnemyBase] ([2] browsable assets)...
+[2022.12.04-10.14.11:189][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy/BP_EnemyBase]
+[2022.12.04-10.14.11:255][932]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto2
+[2022.12.04-10.14.11:255][932]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase_Auto2CF35316B4B3040377D419F9837F05601.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto2.uasset'
+[2022.12.04-10.14.11:256][932]LogFileHelpers: Auto-saving content packages took 0.068
+[2022.12.04-10.16.03:364][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.16.03:428][448]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.16.03:429][448]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase0403F3A84C3D881188BCFAB30DC5489D.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.16.03:444][448]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.16.03:445][448]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.16.10:690][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.16.10:754][877]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.16.10:755][877]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase48EB106243106A005FBC48A4EE79D510.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.16.10:770][877]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.16.10:770][877]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.17.29:224][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.17.29:288][534]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.17.29:289][534]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseDE5B6E4244709EFD67C09091C4E2ACB6.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.17.29:305][534]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.17.29:305][534]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.17.36:607][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.17.36:686][959]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.17.36:687][959]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase51A9157A474BB05F89E06B9F55F9C342.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.17.36:706][959]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.17.36:706][959]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.23.31:589][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.23.31:655][229]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.23.31:656][229]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseBEC7A59542987E6A5BBA1C954E034EC4.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.23.31:673][229]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.23.31:673][229]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.23.36:586][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.23.36:650][518]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.23.36:651][518]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseA86C003A4E6D7D39A4CD20A408B85F4E.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.23.36:665][518]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.23.36:665][518]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.23.38:393][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.23.38:457][607]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.23.38:458][607]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseDD5D8659459E27B1D55D5BAC1AAB5FE6.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.23.38:475][607]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.23.38:476][607]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.23.50:976][356]BlueprintLog: New page: Compile BP_EnemyBase
+[2022.12.04-10.23.51:130][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.12.04-10.24.21:711][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.12.04-10.24.21:715][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map_Main" FILE="../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.12.04-10.24.21:736][158]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map/Map_Main_Auto3
+[2022.12.04-10.24.21:736][158]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/Map_Main_Auto30D0797824B1F7D7F2193DEA2AA325FCC.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto3.umap'
+[2022.12.04-10.24.21:738][158]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Map_Main' took 0.068
+[2022.12.04-10.24.21:738][158]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.068
+[2022.12.04-10.24.21:738][158]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemy/BP_EnemyBase] ([2] browsable assets)...
+[2022.12.04-10.24.21:738][158]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy/BP_EnemyBase]
+[2022.12.04-10.24.21:806][158]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto3
+[2022.12.04-10.24.21:807][158]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase_Auto36C80FB0B48BC38DEF42A6D9C9F75EAF4.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto3.uasset'
+[2022.12.04-10.24.21:807][158]LogFileHelpers: Auto-saving content packages took 0.069
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: request failed, libcurl error: 0 (No error)
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x55ab58d03f0 [can pipeline])
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 1 (Re-using existing connection! (#8) with host datarouter.ol.epicgames.com)
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.230.54.226) port 443 (#8))
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 7 (Closing connection 8)
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: 0000055B5921D700: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.12.04-10.24.37:898][123]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.04-10.25.24:411][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.25.24:478][905]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.25.24:478][905]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase80146954454996D7D102438E7CD7A3A3.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.25.24:493][905]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.25.24:493][905]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.31.26:960][619]LogDerivedDataCache: ../../../../../Unreal Projects/MapleStory2D/DerivedDataCache: Maintenance finished in +00:00:00.099 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.04-10.34.22:059][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.12.04-10.34.22:064][110]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Map_Main' took 0.048
+[2022.12.04-10.34.22:065][110]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemy/BP_EnemyBase] ([2] browsable assets)...
+[2022.12.04-10.34.22:065][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy/BP_EnemyBase]
+[2022.12.04-10.34.22:134][110]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto4
+[2022.12.04-10.34.22:134][110]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase_Auto4DCFE0CA64D70BCEA97CD298ADE651C12.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto4.uasset'
+[2022.12.04-10.34.22:135][110]LogFileHelpers: Auto-saving content packages took 0.071
+[2022.12.04-10.36.37:880][255]LogHttp: Warning: 0000055B59858C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.04-10.36.37:880][255]LogHttp: Warning: 0000055B59858C00: request failed, libcurl error: 0 (No error)
+[2022.12.04-10.36.37:880][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x55ab58d0c60 [can pipeline])
+[2022.12.04-10.36.37:880][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 1 (Re-using existing connection! (#9) with host datarouter.ol.epicgames.com)
+[2022.12.04-10.36.37:880][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.201.184.33) port 443 (#9))
+[2022.12.04-10.36.37:880][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.04-10.36.37:880][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.12.04-10.36.37:881][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.04-10.36.37:881][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.04-10.36.37:881][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 7 (Closing connection 9)
+[2022.12.04-10.36.37:881][255]LogHttp: Warning: 0000055B59858C00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.12.04-10.36.37:881][255]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: request failed, libcurl error: 0 (No error)
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x55ab58d05d0 [can pipeline])
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 1 (Re-using existing connection! (#10) with host datarouter.ol.epicgames.com)
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.217.84.6) port 443 (#10))
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 7 (Closing connection 10)
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: 0000055B59854B00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.12.04-10.44.37:889][ 53]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.04-10.44.50:345][523]LogSlate: Window 'Color Picker' being destroyed
+[2022.12.04-10.44.57:367][584]LogSlate: Window 'Color Picker' being destroyed
+[2022.12.04-10.44.57:858][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.44.57:928][611]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.44.57:928][611]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseDF1F69844D8A35A7565B95995648F4B8.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.44.57:944][611]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.44.57:944][611]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.46.05:307][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.12.04-10.46.05:310][590]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Map_Main' took 0.042
+[2022.12.04-10.46.05:310][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemy/BP_EnemyBase] ([2] browsable assets)...
+[2022.12.04-10.46.05:310][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy/BP_EnemyBase]
+[2022.12.04-10.46.05:378][590]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto5
+[2022.12.04-10.46.05:379][590]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase_Auto548DD18354CE768F65B6F9981E471C156.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Blueprints/Enemy/BP_EnemyBase_Auto5.uasset'
+[2022.12.04-10.46.05:380][590]LogFileHelpers: Auto-saving content packages took 0.069
+[2022.12.04-10.49.14:777][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.49.14:846][894]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.49.14:846][894]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseCBEE8B884EC4BF82F375F0A9EACF8062.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.49.14:863][894]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.49.14:863][894]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.52.20:088][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.52.20:159][978]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.52.20:159][978]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBase4736B53D455C04C26E345A815AC7FA19.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.52.20:176][978]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.52.20:176][978]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.52.22:049][ 91]BlueprintLog: New page: Compile BP_EnemyBase
+[2022.12.04-10.52.22:205][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.12.04-10.52.26:046][313]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.12.04-10.52.26:052][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.04-10.52.26:052][313]PIE: New page: PIE session: Map_Main (2022年12月5日 上午2:52:26)
+[2022.12.04-10.52.26:052][313]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_Main
+[2022.12.04-10.52.26:057][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005779s)
+[2022.12.04-10.52.26:057][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_Main.Map_Main to /Game/Map/UEDPIE_0_Map_Main.Map_Main (0.005905s)
+[2022.12.04-10.52.26:057][313]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.04-10.52.26:058][313]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.04-10.52.26:058][313]LogAIModule: Creating AISystem for world Map_Main
+[2022.12.04-10.52.26:058][313]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2022.12.04-10.52.26:099][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.12.04-10.52.26:103][313]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.12.04-10.52.26:103][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.04-10.52.26:103][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.04-10.52.26:103][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.04-10.52.26:103][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.04-10.52.26:103][313]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.04-10.52.26:103][313]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.04-10.52.26:103][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.04-10.52.26:103][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.04-10.52.26:104][313]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.04-10.52.26:104][313]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.04-10.52.26:104][313]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.04-10.52.26:106][313]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.04-10.52.26:159][313]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek High Definition Audio)
+[2022.12.04-10.52.26:159][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.04-10.52.26:159][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.04-10.52.26:159][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.04-10.52.26:160][313]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.12.04-10.52.26:160][313]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.12.04-10.52.26:162][313]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.12.04-10.52.26:162][313]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.12.04-10.52.26:162][313]LogInit: FAudioDevice initialized.
+[2022.12.04-10.52.26:162][313]LogAudio: Display: Audio Device (ID: 14) registered with world 'Map_Main'.
+[2022.12.04-10.52.26:193][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.04-10.52.26:194][313]LogLoad: Game class is 'GM_MapleStory_C'
+[2022.12.04-10.52.26:197][313]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2022.12.04-18.52.26
+[2022.12.04-10.52.26:199][313]LogWorld: Bringing up level for play took: 0.005260
+[2022.12.04-10.52.26:202][313]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2022.12.04-10.52.26:203][313]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.12.04-10.52.26:203][313]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.12.04-10.52.26:203][313]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.12.04-10.52.26:203][313]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2022.12.04-10.52.26:203][313]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.12.04-10.52.26:203][313]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 17777
+[2022.12.04-10.52.26:211][313]PIE: Server logged in
+[2022.12.04-10.52.26:216][313]PIE: Play in editor total start time 0.164 seconds.
+[2022.12.04-10.52.26:217][313]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.04-10.52.26:217][313]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.04-10.52.26:217][313]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2022.12.04-10.52.26:217][313]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.12.04-10.52.26:217][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.04-10.52.26:217][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.04-10.52.26:217][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.04-10.52.26:217][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.04-10.52.26:217][313]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.04-10.52.26:217][313]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.04-10.52.26:217][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.04-10.52.26:217][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.04-10.52.26:218][313]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.04-10.52.26:218][313]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.04-10.52.26:218][313]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.04-10.52.26:220][313]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.04-10.52.26:273][313]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek High Definition Audio)
+[2022.12.04-10.52.26:273][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.04-10.52.26:273][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.04-10.52.26:273][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.04-10.52.26:274][313]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.12.04-10.52.26:274][313]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.12.04-10.52.26:276][313]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.12.04-10.52.26:276][313]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.12.04-10.52.26:276][313]LogInit: FAudioDevice initialized.
+[2022.12.04-10.52.26:276][313]LogAudio: Display: Audio Device (ID: 15) registered with world 'Untitled'.
+[2022.12.04-10.52.26:310][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.04-10.52.26:310][313]LogNet: Browse: 127.0.0.1:17777/Game/Map_Main
+[2022.12.04-10.52.26:311][313]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.12.04-10.52.26:311][313]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.12.04-10.52.26:311][313]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.12.04-10.52.26:311][313]LogNet: Game client on port 17777, rate 100000
+[2022.12.04-10.52.26:318][313]PIE: Client logged in
+[2022.12.04-10.52.26:323][313]PIE: Play in editor total start time 0.272 seconds.
+[2022.12.04-10.52.26:335][313]LogViewport: Scene viewport resized to 925x522, mode Windowed.
+[2022.12.04-10.52.26:356][313]LogViewport: Scene viewport resized to 640x480, mode Windowed.
+[2022.12.04-10.52.27:340][367]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52334
+[2022.12.04-10.52.27:340][367]LogHandshake: SendConnectChallenge. Timestamp: 1.309886, Cookie: 017061164075159015104196091123098142185050122011081138220232
+[2022.12.04-10.52.27:341][367]LogHandshake: SendChallengeResponse. Timestamp: 1.309886, Cookie: 017061164075159015104196091123098142185050122011081138220232
+[2022.12.04-10.52.27:356][368]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52334
+[2022.12.04-10.52.27:356][368]LogHandshake: SendChallengeAck. InCookie: 017061164075159015104196091123098142185050122011081138220232
+[2022.12.04-10.52.27:356][368]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52334
+[2022.12.04-10.52.27:356][368]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.12.04-10.52.27:357][368]LogNet: NotifyAcceptedConnection: Name: Map_Main, TimeStamp: 12/04/22 18:52:27, [UNetConnection] RemoteAddr: 127.0.0.1:52334, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.12.04-10.52.27:357][368]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52334, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.12.04-10.52.27:358][368]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.12.04-10.52.27:373][369]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Map/UEDPIE_0_Map_Main.Map_Main: Accepted
+[2022.12.04-10.52.27:373][369]LogNet: Remote platform little endian=1
+[2022.12.04-10.52.27:373][369]LogNet: This platform little endian=1
+[2022.12.04-10.52.27:376][369]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2022.12.04-10.52.27:390][370]LogNet: Login request: ?Name=LAPTOP-0SLC55LP-365C92554F7A78713AC520952355717B userId: NULL:LAPTOP-0SLC55LP-365C92554F7A78713AC520952355717B platform: NULL
+[2022.12.04-10.52.27:391][370]LogNet: Welcomed by server (Level: /Game/Map/UEDPIE_0_Map_Main, Game: /Game/Blueprints/GM_MapleStory.GM_MapleStory_C)
+[2022.12.04-10.52.27:391][370]LogLoad: LoadMap: 127.0.0.1:17777/Game/Map/UEDPIE_0_Map_Main?game=/Game/Blueprints/GM_MapleStory.GM_MapleStory_C
+[2022.12.04-10.52.27:391][370]LogWorld: BeginTearingDown for /Temp/Untitled_7
+[2022.12.04-10.52.27:391][370]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-10.52.27:391][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-10.52.27:430][370]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.04-10.52.27:433][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.12.04-10.52.27:441][370]LogAudio: Display: Audio Device (ID: 15) registered with world 'Map_Main'.
+[2022.12.04-10.52.27:441][370]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.04-10.52.27:441][370]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.04-10.52.27:442][370]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2022.12.04-10.52.27:445][370]LogWorld: Bringing World /Game/Map/UEDPIE_1_Map_Main.Map_Main up for play (max tick rate 60) at 2022.12.04-18.52.27
+[2022.12.04-10.52.27:446][370]LogWorld: Bringing up level for play took: 0.003874
+[2022.12.04-10.52.27:446][370]LogLoad: Took 0.055260 seconds to LoadMap(/Game/Map/UEDPIE_0_Map_Main)
+[2022.12.04-10.52.27:455][371]LogNet: Client netspeed is 100000
+[2022.12.04-10.52.27:455][371]LogNet: Join request: /Game/Map_Main?Name=LAPTOP-0SLC55LP-365C92554F7A78713AC520952355717B?SplitscreenCount=1
+[2022.12.04-10.52.27:455][371]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.12.04-10.52.27:456][371]LogNet: Join succeeded: LAPTOP-0SLC55LP-365C
+[2022.12.04-10.52.27:773][373]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.12.04-10.52.27:776][373]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetPlayerSpawnLocation will not be processed.
+[2022.12.04-10.52.27:776][373]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.12.04-10.52.31:040][569]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.31:340][587]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.33:091][692]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.33:424][712]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.34:607][783]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.34:940][803]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.34:958][804]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.35:274][823]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.35:540][839]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.35:590][842]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_2. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.35:856][858]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.36:090][872]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.36:390][890]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.43:140][295]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.43:440][313]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.43:741][331]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.44:056][350]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.44:291][364]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.44:607][383]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.44:892][398]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.45:225][418]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.45:275][421]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_4. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.45:292][422]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.45:592][440]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.45:726][448]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.46:058][468]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.46:291][482]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.46:609][501]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.46:642][503]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.46:959][522]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.47:092][530]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.47:275][541]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_6. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.47:409][549]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.47:509][555]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.47:809][573]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.54:576][979]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.54:891][998]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.55:159][ 14]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.55:492][ 34]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.55:576][ 39]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.55:891][ 58]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.55:942][ 61]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.56:259][ 80]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.56:292][ 82]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.56:608][101]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.56:675][105]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.56:941][121]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_1. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.56:975][123]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.57:776][171]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.52.58:109][191]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.04:476][573]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.04:792][592]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.04:826][594]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.05:159][614]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.05:659][644]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.05:975][663]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.06:075][669]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.06:393][688]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.06:459][692]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.06:643][703]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_1. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.06:759][710]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.06:893][718]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.07:442][751]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_6. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.07:876][777]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.08:059][788]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.08:376][807]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-10.53.09:730][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.04-10.53.09:730][884]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_1_Map_Main
+[2022.12.04-10.53.09:730][884]LogSlate: Window 'MapleStory2D Preview [NetMode: Client 1]  (64-bit/SM5)' being destroyed
+[2022.12.04-10.53.09:734][884]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-10.53.09:734][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-10.53.09:744][884]LogNet: World NetDriver shutdown IpNetDriver_13 [GameNetDriver]
+[2022.12.04-10.53.09:744][884]LogNet: DestroyNamedNetDriver IpNetDriver_13 [GameNetDriver]
+[2022.12.04-10.53.09:744][884]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: PC_MapleStory_C_0, Owner: PC_MapleStory_C_0, UniqueId: NULL:LAPTOP-0SLC55LP-365C92554F7A78713AC520952355717B, Channels: 22, Time: 2022.12.04-10.53.09
+[2022.12.04-10.53.09:744][884]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: PC_MapleStory_C_0, Owner: PC_MapleStory_C_0, UniqueId: NULL:LAPTOP-0SLC55LP-365C92554F7A78713AC520952355717B
+[2022.12.04-10.53.09:744][884]LogExit: GameNetDriver IpNetDriver_13 shut down
+[2022.12.04-10.53.09:745][884]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_Main
+[2022.12.04-10.53.09:746][884]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2022.12.04-10.53.09:746][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.04-10.53.09:747][884]LogSlate: Window 'MapleStory2D Preview [NetMode: Server]  (64-bit/SM5)' being destroyed
+[2022.12.04-10.53.09:753][884]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-10.53.09:753][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-10.53.09:763][884]LogNet: World NetDriver shutdown IpNetDriver_12 [GameNetDriver]
+[2022.12.04-10.53.09:763][884]LogNet: DestroyNamedNetDriver IpNetDriver_12 [GameNetDriver]
+[2022.12.04-10.53.09:763][884]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:52334, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PC_MapleStory_C_1, Owner: PC_MapleStory_C_1, UniqueId: NULL:LAPTOP-0SLC55LP-365C92554F7A78713AC520952355717B
+[2022.12.04-10.53.09:763][884]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52334, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PC_MapleStory_C_1, Owner: PC_MapleStory_C_1, UniqueId: NULL:LAPTOP-0SLC55LP-365C92554F7A78713AC520952355717B, Channels: 22, Time: 2022.12.04-10.53.09
+[2022.12.04-10.53.09:763][884]LogNet: UNetConnection::Close: CloseReason:
+[2022.12.04-10.53.09:763][884]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.12.04-10.53.09:763][884]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52334, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PC_MapleStory_C_1, Owner: PC_MapleStory_C_1, UniqueId: NULL:LAPTOP-0SLC55LP-365C92554F7A78713AC520952355717B
+[2022.12.04-10.53.09:764][884]LogExit: GameNetDriver IpNetDriver_12 shut down
+[2022.12.04-10.53.09:765][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.04-10.53.09:773][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-10.53.09:818][884]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.04-10.53.09:819][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.12.04-10.53.09:821][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.12.04-10.53.09:826][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.12.04-10.53.09:827][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.12.04-10.53.09:838][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.12.04-10.53.09:864][885]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.12.04-10.53.09:864][885]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.12.04-10.53.47:939][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/BP_EnemyBase" FILE="../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset" SILENT=true
+[2022.12.04-10.53.48:008][150]LogSavePackage: Moving output files for package: /Game/Blueprints/Enemy/BP_EnemyBase
+[2022.12.04-10.53.48:009][150]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/BP_EnemyBaseEB3D2FF1428EAAEE5D8488A1F13C96DD.tmp' to '../../../../../Unreal Projects/MapleStory2D/Content/Blueprints/Enemy/BP_EnemyBase.uasset'
+[2022.12.04-10.53.48:024][150]AssetCheck: New page: Asset Save: BP_EnemyBase
+[2022.12.04-10.53.48:024][150]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemy/BP_EnemyBase.BP_EnemyBase
+[2022.12.04-10.53.48:797][197]BlueprintLog: New page: Compile BP_EnemyBase
+[2022.12.04-10.53.48:949][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x55ab58d0210 [can pipeline])
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: libcurl info message cache 1 (Re-using existing connection! (#11) with host datarouter.ol.epicgames.com)
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.194.48.3) port 443 (#11))
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: 0000055B59C3EB00: libcurl info message cache 7 (Closing connection 11)
+[2022.12.04-10.54.54:337][113]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF98C27B9-4D6D-1AF2-73DB-A29BE2F7A802%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86489b874f7843364fc7d298ab9a5e72%7Cbde48c69750b40809d172be8e59bc760%7C1ab6bdf9-efd4-4a13-9b42-7438564e92a7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.04-10.56.49:277][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.12.04-10.56.49:281][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Map_Main" FILE="../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.12.04-10.56.49:302][991]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Map/Map_Main_Auto6
+[2022.12.04-10.56.49:303][991]LogSavePackage: Moving '../../../../../Unreal Projects/MapleStory2D/Saved/Map_Main_Auto6C54335CD4A47E70BA59C04A2EC62FF87.tmp' to '../../../../../Unreal Projects/MapleStory2D/Saved/Autosaves/Game/Map/Map_Main_Auto6.umap'
+[2022.12.04-10.56.49:304][991]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Map_Main' took 0.067
+[2022.12.04-10.56.49:304][991]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.067
+[2022.12.04-11.20.09:964][ 29]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.12.04-11.20.09:970][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.04-11.20.09:970][ 29]PIE: New page: PIE session: Map_Main (2022年12月5日 上午3:20:09)
+[2022.12.04-11.20.09:970][ 29]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_Main
+[2022.12.04-11.20.09:975][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004945s)
+[2022.12.04-11.20.09:975][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_Main.Map_Main to /Game/Map/UEDPIE_0_Map_Main.Map_Main (0.005036s)
+[2022.12.04-11.20.09:975][ 29]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.04-11.20.09:975][ 29]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.04-11.20.09:975][ 29]LogAIModule: Creating AISystem for world Map_Main
+[2022.12.04-11.20.09:976][ 29]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2022.12.04-11.20.10:018][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.12.04-11.20.10:020][ 29]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.12.04-11.20.10:020][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.04-11.20.10:021][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.04-11.20.10:021][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.04-11.20.10:021][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.04-11.20.10:021][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.04-11.20.10:021][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.04-11.20.10:021][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.04-11.20.10:021][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.04-11.20.10:021][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.04-11.20.10:021][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.04-11.20.10:021][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.04-11.20.10:023][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.04-11.20.10:080][ 29]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek High Definition Audio)
+[2022.12.04-11.20.10:081][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.04-11.20.10:081][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.04-11.20.10:081][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.04-11.20.10:082][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.12.04-11.20.10:082][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.12.04-11.20.10:084][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.12.04-11.20.10:084][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.12.04-11.20.10:084][ 29]LogInit: FAudioDevice initialized.
+[2022.12.04-11.20.10:084][ 29]LogAudio: Display: Audio Device (ID: 16) registered with world 'Map_Main'.
+[2022.12.04-11.20.10:160][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.04-11.20.10:161][ 29]LogLoad: Game class is 'GM_MapleStory_C'
+[2022.12.04-11.20.10:164][ 29]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_Main.Map_Main up for play (max tick rate 60) at 2022.12.04-19.20.10
+[2022.12.04-11.20.10:166][ 29]LogWorld: Bringing up level for play took: 0.005312
+[2022.12.04-11.20.10:169][ 29]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2022.12.04-11.20.10:170][ 29]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.12.04-11.20.10:170][ 29]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.12.04-11.20.10:170][ 29]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.12.04-11.20.10:170][ 29]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2022.12.04-11.20.10:170][ 29]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.12.04-11.20.10:170][ 29]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 17777
+[2022.12.04-11.20.10:178][ 29]PIE: Server logged in
+[2022.12.04-11.20.10:183][ 29]PIE: Play in editor total start time 0.214 seconds.
+[2022.12.04-11.20.10:184][ 29]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.04-11.20.10:184][ 29]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.04-11.20.10:184][ 29]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2022.12.04-11.20.10:184][ 29]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.12.04-11.20.10:184][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.04-11.20.10:184][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.04-11.20.10:184][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.04-11.20.10:184][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.04-11.20.10:184][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.04-11.20.10:184][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.04-11.20.10:184][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.04-11.20.10:184][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.04-11.20.10:185][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.04-11.20.10:185][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.04-11.20.10:185][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.04-11.20.10:187][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.04-11.20.10:240][ 29]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek High Definition Audio)
+[2022.12.04-11.20.10:240][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.04-11.20.10:240][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.04-11.20.10:240][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.04-11.20.10:241][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.12.04-11.20.10:241][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.12.04-11.20.10:243][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.12.04-11.20.10:243][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.12.04-11.20.10:243][ 29]LogInit: FAudioDevice initialized.
+[2022.12.04-11.20.10:243][ 29]LogAudio: Display: Audio Device (ID: 17) registered with world 'Untitled'.
+[2022.12.04-11.20.10:277][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.04-11.20.10:277][ 29]LogNet: Browse: 127.0.0.1:17777/Game/Map_Main
+[2022.12.04-11.20.10:278][ 29]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.12.04-11.20.10:278][ 29]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.12.04-11.20.10:278][ 29]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.12.04-11.20.10:278][ 29]LogNet: Game client on port 17777, rate 100000
+[2022.12.04-11.20.10:284][ 29]PIE: Client logged in
+[2022.12.04-11.20.10:289][ 29]PIE: Play in editor total start time 0.32 seconds.
+[2022.12.04-11.20.10:298][ 29]LogViewport: Scene viewport resized to 925x522, mode Windowed.
+[2022.12.04-11.20.10:310][ 29]LogViewport: Scene viewport resized to 640x480, mode Windowed.
+[2022.12.04-11.20.11:296][ 83]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57934
+[2022.12.04-11.20.11:296][ 83]LogHandshake: SendConnectChallenge. Timestamp: 1.347252, Cookie: 087016068143146025048141231009090217225058117251020159133218
+[2022.12.04-11.20.11:297][ 83]LogHandshake: SendChallengeResponse. Timestamp: 1.347252, Cookie: 087016068143146025048141231009090217225058117251020159133218
+[2022.12.04-11.20.11:312][ 84]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57934
+[2022.12.04-11.20.11:312][ 84]LogHandshake: SendChallengeAck. InCookie: 087016068143146025048141231009090217225058117251020159133218
+[2022.12.04-11.20.11:312][ 84]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57934
+[2022.12.04-11.20.11:313][ 84]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.12.04-11.20.11:313][ 84]LogNet: NotifyAcceptedConnection: Name: Map_Main, TimeStamp: 12/04/22 19:20:11, [UNetConnection] RemoteAddr: 127.0.0.1:57934, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.12.04-11.20.11:313][ 84]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57934, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.12.04-11.20.11:314][ 84]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.12.04-11.20.11:329][ 85]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Map/UEDPIE_0_Map_Main.Map_Main: Accepted
+[2022.12.04-11.20.11:329][ 85]LogNet: Remote platform little endian=1
+[2022.12.04-11.20.11:329][ 85]LogNet: This platform little endian=1
+[2022.12.04-11.20.11:332][ 85]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2022.12.04-11.20.11:345][ 86]LogNet: Login request: ?Name=LAPTOP-0SLC55LP-D1B0F9DA4E5A607AC42FDE8B8E2FC1C0 userId: NULL:LAPTOP-0SLC55LP-D1B0F9DA4E5A607AC42FDE8B8E2FC1C0 platform: NULL
+[2022.12.04-11.20.11:346][ 86]LogNet: Welcomed by server (Level: /Game/Map/UEDPIE_0_Map_Main, Game: /Game/Blueprints/GM_MapleStory.GM_MapleStory_C)
+[2022.12.04-11.20.11:346][ 86]LogLoad: LoadMap: 127.0.0.1:17777/Game/Map/UEDPIE_0_Map_Main?game=/Game/Blueprints/GM_MapleStory.GM_MapleStory_C
+[2022.12.04-11.20.11:346][ 86]LogWorld: BeginTearingDown for /Temp/Untitled_8
+[2022.12.04-11.20.11:346][ 86]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-11.20.11:346][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-11.20.11:384][ 86]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.04-11.20.11:386][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.12.04-11.20.11:394][ 86]LogAudio: Display: Audio Device (ID: 17) registered with world 'Map_Main'.
+[2022.12.04-11.20.11:394][ 86]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.04-11.20.11:395][ 86]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.04-11.20.11:395][ 86]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2022.12.04-11.20.11:399][ 86]LogWorld: Bringing World /Game/Map/UEDPIE_1_Map_Main.Map_Main up for play (max tick rate 60) at 2022.12.04-19.20.11
+[2022.12.04-11.20.11:399][ 86]LogWorld: Bringing up level for play took: 0.004282
+[2022.12.04-11.20.11:399][ 86]LogLoad: Took 0.053319 seconds to LoadMap(/Game/Map/UEDPIE_0_Map_Main)
+[2022.12.04-11.20.11:413][ 87]LogNet: Client netspeed is 100000
+[2022.12.04-11.20.11:413][ 87]LogNet: Join request: /Game/Map_Main?Name=LAPTOP-0SLC55LP-D1B0F9DA4E5A607AC42FDE8B8E2FC1C0?SplitscreenCount=1
+[2022.12.04-11.20.11:413][ 87]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.12.04-11.20.11:414][ 87]LogNet: Join succeeded: LAPTOP-0SLC55LP-D1B0
+[2022.12.04-11.20.11:534][ 89]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.12.04-11.20.11:534][ 89]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.12.04-11.20.11:536][ 89]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetPlayerSpawnLocation will not be processed.
+[2022.12.04-11.20.17:615][454]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.17:916][472]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.19:232][551]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.19:549][570]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.20:816][646]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.21:132][665]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.21:783][704]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_1. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.27:950][ 74]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.28:266][ 93]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.29:383][160]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.29:699][179]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.30:683][238]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.30:999][257]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.31:683][298]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_2. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.32:733][361]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.33:049][380]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.33:849][428]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.34:166][447]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.35:132][505]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.35:466][525]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.36:133][565]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_4. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.42:351][938]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.42:668][957]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.43:519][  8]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.43:818][ 26]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.44:702][ 79]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.45:018][ 98]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.45:701][139]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_4. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.46:288][172]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.46:570][189]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.47:571][249]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.47:887][268]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.48:754][320]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.49:070][339]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.49:954][392]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.50:271][411]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Luke_C_0. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.50:921][450]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor BP_Snail_C_6. Function SRV_SetMovementState will not be processed.
+[2022.12.04-11.20.55:001][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.04-11.20.55:001][693]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_1_Map_Main
+[2022.12.04-11.20.55:001][693]LogSlate: Window 'MapleStory2D Preview [NetMode: Client 1]  (64-bit/SM5)' being destroyed
+[2022.12.04-11.20.55:005][693]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-11.20.55:006][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-11.20.55:017][693]LogNet: World NetDriver shutdown IpNetDriver_15 [GameNetDriver]
+[2022.12.04-11.20.55:017][693]LogNet: DestroyNamedNetDriver IpNetDriver_15 [GameNetDriver]
+[2022.12.04-11.20.55:017][693]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PC_MapleStory_C_0, Owner: PC_MapleStory_C_0, UniqueId: NULL:LAPTOP-0SLC55LP-D1B0F9DA4E5A607AC42FDE8B8E2FC1C0, Channels: 22, Time: 2022.12.04-11.20.55
+[2022.12.04-11.20.55:018][693]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PC_MapleStory_C_0, Owner: PC_MapleStory_C_0, UniqueId: NULL:LAPTOP-0SLC55LP-D1B0F9DA4E5A607AC42FDE8B8E2FC1C0
+[2022.12.04-11.20.55:018][693]LogExit: GameNetDriver IpNetDriver_15 shut down
+[2022.12.04-11.20.55:019][693]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_Main
+[2022.12.04-11.20.55:019][693]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2022.12.04-11.20.55:020][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.04-11.20.55:020][693]LogSlate: Window 'MapleStory2D Preview [NetMode: Server]  (64-bit/SM5)' being destroyed
+[2022.12.04-11.20.55:026][693]LogWorld: UWorld::CleanupWorld for Map_Main, bSessionEnded=true, bCleanupResources=true
+[2022.12.04-11.20.55:026][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-11.20.55:036][693]LogNet: World NetDriver shutdown IpNetDriver_14 [GameNetDriver]
+[2022.12.04-11.20.55:036][693]LogNet: DestroyNamedNetDriver IpNetDriver_14 [GameNetDriver]
+[2022.12.04-11.20.55:036][693]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:57934, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PC_MapleStory_C_1, Owner: PC_MapleStory_C_1, UniqueId: NULL:LAPTOP-0SLC55LP-D1B0F9DA4E5A607AC42FDE8B8E2FC1C0
+[2022.12.04-11.20.55:036][693]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57934, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PC_MapleStory_C_1, Owner: PC_MapleStory_C_1, UniqueId: NULL:LAPTOP-0SLC55LP-D1B0F9DA4E5A607AC42FDE8B8E2FC1C0, Channels: 22, Time: 2022.12.04-11.20.55
+[2022.12.04-11.20.55:036][693]LogNet: UNetConnection::Close: CloseReason:
+[2022.12.04-11.20.55:036][693]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.12.04-11.20.55:036][693]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57934, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PC_MapleStory_C_1, Owner: PC_MapleStory_C_1, UniqueId: NULL:LAPTOP-0SLC55LP-D1B0F9DA4E5A607AC42FDE8B8E2FC1C0
+[2022.12.04-11.20.55:036][693]LogExit: GameNetDriver IpNetDriver_14 shut down
+[2022.12.04-11.20.55:038][693]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.04-11.20.55:044][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.04-11.20.55:083][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.12.04-11.20.55:084][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.12.04-11.20.55:090][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.12.04-11.20.55:091][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.12.04-11.20.55:102][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.12.04-11.20.55:127][694]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2022.12.04-11.20.55:127][694]LogPlayLevel: Display: Destroying online subsystem :Context_42
